@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("slike/pozadina.jpg");
+    background-size: cover;
+}
+.main {
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400px;
+    width: 500px;
+}
+h2 {
+    height: 50px;
+    font-size: 18pt;
+}
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+}
+#odg1 {
+    margin-top: 0px;
+}
+#start {
+    width: 50px;
+    height: 25px;
+}
+#dalje {
+    width: 50px;
+    height: 25px;
+}
+.tocno {
+    background-color: greenyellow;
+}
+.krivo {
+    background-color: lightcoral;
+}
+p {
+    font-size: 16pt;
+}
